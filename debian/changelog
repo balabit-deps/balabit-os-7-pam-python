@@ -1,3 +1,9 @@
+pam-python (1.0.6-1.1+deb10u1build0.18.04.1bb2) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Mon, 05 Oct 2020 20:20:41 +0200
+
 pam-python (1.0.6-1.1+deb10u1build0.18.04.1bb1) bionic; urgency=medium
 
   * Balabit patched version

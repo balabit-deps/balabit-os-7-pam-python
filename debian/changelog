@@ -1,3 +1,13 @@
+pam-python (1.0.6-1.1+deb10u1ubuntu0.1) bionic-security; urgency=medium
+
+  * SECURITY REGRESSION: The update for CVE-2019-16729 prevented python PAM
+    modules from loading 3rd party modules from site-specific paths
+    (LP: 1901606)
+    - debian/patches/CVE-2019-16729-bug1901606.patch: Remove Py_NoSiteFlag=1
+      so that site-specific paths are again added to the python module path.
+
+ -- Mike Salvatore <mike.salvatore@canonical.com>  Wed, 28 Oct 2020 08:57:40 -0400
+
 pam-python (1.0.6-1.1+deb10u1build0.18.04.1) bionic-security; urgency=medium
 
   * fake sync from Debian

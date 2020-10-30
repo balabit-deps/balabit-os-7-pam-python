@@ -1,7 +1,8 @@
 Source: pam-python
 Section: python
 Priority: extra
-Maintainer: Russell Stuart <russell-debian@stuart.id.au>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Russell Stuart <russell-debian@stuart.id.au>
 Build-Depends: debhelper (>= 7), python-all-dev (>= 2.2), python-sphinx,
   python-doc,
   libpam0g-dev | libpam-dev

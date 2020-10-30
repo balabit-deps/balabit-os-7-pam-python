@@ -1,2 +1,3 @@
 intersphinx-localmapping.diff
 cve-2019-16729.dpatch
+CVE-2019-16729-bug1901606.patch

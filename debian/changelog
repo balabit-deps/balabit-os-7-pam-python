@@ -1,3 +1,9 @@
+pam-python (1.0.6-1.1+deb10u1ubuntu0.1bb1) bionic; urgency=medium
+
+  * Balabit patched version
+
+ -- Balabit Platform Team <devnull@dev.null>  Fri, 30 Oct 2020 14:50:53 +0100
+
 pam-python (1.0.6-1.1+deb10u1ubuntu0.1) bionic-security; urgency=medium
 
   * SECURITY REGRESSION: The update for CVE-2019-16729 prevented python PAM
